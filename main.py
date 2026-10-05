@@ -18,6 +18,8 @@ if user_age >= LOW_AGE:
         print("BETWEENER")
 
 print("--- Part 1: yours ---")
+if user_age >= LOW_AGE and user_age < HIGH_AGE:
+        print("BETWEENER")
 
 
 print("--- Part 2: given ---")
@@ -28,4 +30,5 @@ else:
         print("NOT BETWEENER")
 
 print("--- Part 2: yours ---")
-
+if user_age < LOW_AGE or user_age >= HIGH_AGE:
+    print("NOT BETWEENER")
